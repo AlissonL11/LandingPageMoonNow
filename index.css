@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2d173f;
+}
+
+header{
+    padding: 5rem;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+    header a{
+        text-decoration: none;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.3rem;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+
+        color: #E0DAED;
+        align-items: right;
+        padding-right: 3rem;
+    }
+    header a:hover{
+        color:#9F7FDB;
+    }
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+
+}
+
+    form{
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+    form p{
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 50px;
+        /* or 78% */
+
+        text-align: center;
+
+        color: rgba(159, 127, 219, 0.8);        
+    }
+    form input{
+        width: 408.2px;
+        height: 61.23px;
+        background: #9F7FDB;
+        border-radius: 10px;
+        margin: 0px auto;
+        margin-top: 2rem;
+
+        color:white;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: left;
+        padding-left: 1rem;
+    }
+    form input::placeholder{
+        color:white;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: left;
+        padding-left: 1rem;
+    }
+    form div {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+    }
+    form div button{
+        background: #7834F3;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 265px;
+        height: 6rem;
+        padding: 18px, 28px, 18px, 28px;        ;
+        gap: 10px;
+
+        color: white;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    form div button:hover{
+        background: #6f3c9b;
+        transition: 0.2s ease-in-out;
+    }
+
+form span{
+    text-align: right;
+    color: red;
+    visibility: hidden;
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    text-align: center;
+}
